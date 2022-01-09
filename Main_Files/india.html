@@ -1,0 +1,244 @@
+<html lang="en">
+    <head>
+         <title>South Indian Tourism</title>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <style>
+            * {
+                box-sizing: border-box;
+               }
+/*styling navigation bar*/
+            .topnav 
+             {
+             overflow: hidden;
+             background: linear-gradient(45deg, #5322c7 0%, #b100a1 100%);
+             border: 2px solid white;
+             position:sticky;
+             top:0;
+             }
+            .topnav a 
+           {
+             float: left;
+             display: block;
+             color: #ffffff;
+             text-align: center;
+             padding: 14px 16px;
+             text-decoration: none;
+            }
+            .topnav a:hover 
+            {
+             background: linear-gradient(45deg,#b100a1 0%, #5322c7 100% );
+             }
+/*styling the heading*/
+            .head1
+            {
+             color:tomato;
+             font-family: 'Gemunu Libre', sans-serif;
+             font-weight:100%;
+             font-size:50px;
+            }
+            .about
+            {
+             margin:0px 20px 0px 20px;
+             font-family: 'Roboto', sans-serif;
+             text-indent: 30%;
+             font-size:25px;
+            }
+            .cities
+            {
+             width:100%;
+            }
+            .cities1
+            {
+             font-size: 36px;
+             margin-bottom: 40px;
+             padding-top:10px;
+            }
+           
+           .capital
+           {
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            flex-wrap:wrap;
+           }
+         .names 
+         {
+          display:flex;
+          flex-direction:row;
+          justify-content:space-between;
+          padding-left:60px;
+          padding-right:70px;
+          flex-wrap:wrap;
+         }
+/*styling feedback form*/         
+         #feedback
+         {
+          display:block;
+          border-radius: 5px;
+          height:auto;
+          background-color: rgb(210,210,210);
+          margin:20px  100px;
+          padding: 20px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+         }
+         input[type], select,textarea,number
+         {
+          width: 100%;
+          padding: 15px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 10px;
+          box-sizing: border-box;
+         }
+         input[type=submit]
+         {
+           width: 50%;
+           text-align:center;
+           background:linear-gradient(45deg, #5322c7 0%, #b100a1 100%);
+           color: white;
+           padding: 14px 20px;
+           margin: 8px 250px;
+           border: none;
+           border-radius: 4px;
+           cursor: pointer;
+          }
+          input[type=submit]:hover
+          {
+           background:linear-gradient(45deg,#b100a1 0%, #5322c7 100% );
+          }
+/*styling pagination*/     
+          .pagination
+          {
+            display: inline-block;
+            margin:50px 500px 30px 500px;
+          }
+          .pagination a
+          {
+            text-align:center;
+            color: black;
+            padding: 8px 16px;
+            text-decoration: none;
+            transition: background-color .3s;
+           }
+          .pagination a.active 
+          {
+            background-color: #4CAF50;
+            color: white;
+          }
+          .pagination a:hover:not(.active) {background-color: #ddd;}
+
+/*styling footer*/ 
+          .white-section
+          {
+            background: #ddd;
+            position:relative;
+          }
+          #footer
+          {
+            padding: 6% 35%;
+          }
+          .footer-icons
+          {
+            margin:10px;
+            height:25px;
+            width:30px;
+          }
+          .foot
+          {
+            postion:absolute;
+            padding:25px 70px;
+          }
+
+         
+       
+        </style>
+    </head>
+    <body>
+            <div class="topnav">
+	<a href="#" >Home</a>
+	<a href="#" >My Account</a>
+	<a href="#navigate"  >Places</a>
+                <a href="#feedback" >Feedback Form</a>
+                <a href="#" style="float:right;">Signup</a>
+                <a href="#" style="float:right;">Login</a>
+            </div>
+            <div class="header">
+                 <img src="file:home.jpg" width="100%" height="auto" style="padding:0px 50px;">
+	 <h1 class="head1">Welcome to South Indian Tourism</h1>
+	 <p class="about">South India comprises Andhra Pradesh, Karnataka, Tamil Nadu, Kerala, Telangana and the Union Territories of Lakshadweep, Andaman and Nicobar Islands and Puducherry. Lush green tea and coffee plantations on the slopes with a backdrop of different hues of blue sky fill your heart with solace. Not to forget the magnificent examples of Dravidian style of architectural brilliance such as the temples of Mahabalipuram, Hampi and Chola Temple among many others. South India is a treasure trove of peace, scenic views, nature’s bliss and ancient history of India’s glory. Thus, making it one of the best travel destinations in India.</p>
+            </div>
+            <div class="cities">
+                 <h1 class="cities1"  id="navigate" style="text-align:center;">Major Cities</h1>
+            </div>
+            
+            <div class="capital">
+                 <a href="file:tamilnadu.html"><img src="file:chennai.jpg" width="250px" height="200px" style="flex-basis:300px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"></a>
+                 <a href="file:kerala.html"> <img src="file:kerala.jpg" width="250px" height="200px" style="flex-basis:300px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"></a>
+                 <a href="file:telungana.html"><img src="file:hyderabed.jpg" width="250px" height="200px" style="flex-basis:300px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"></a>
+            </div>
+            <div class="names">
+                <h2>Tamilnadu</h2>
+                <h2>Kerala</h2>
+                <h2>Telungana</h2>  
+            </div>
+            <div id="feedback">
+                   <h2 style="text-align:center">Feedback Form</h2>
+                   <h5 style="text-align:center">Please fill the form to Share your experience with us.</h5>
+                   <form>
+                         <label for="fname">First Name</label>
+                         <input type="text" id="fname" name="firstname" placeholder="Enter your name">
+                        
+                         <label for="age">Age</label>
+                         <input type="number" id="age" name="age" placeholder="Enter  your age">
+
+                         <label for="email">Email</label>
+                         <input type="email" id="email" name="email" placeholder="Enter your email">
+ 
+                         <label for="contact">Contact Number</label>
+                         <input type="text" id="contact"  name="contact" placeholder="Enter your contact number">
+
+                         <label for="favt">Favourite Place</label>
+                         <select id="favt" name="favt">
+                                     <option value="tamilnadu">Tamilnadu</option>
+                                     <option value="kerala">Kerala</option>
+                                     <option value="telungana">Telungana</option>
+                        </select>
+                        <label for="subject">Enter your comments</label>
+                        <textarea id="subject" name="subject" placeholder="Write your suggestions.." style="height:200px"></textarea>
+                        <input type="submit" value="Submit">
+                     </form>                 
+
+
+
+           </div>
+           
+           <div class="pagination">
+                   <a href="#">&laquo;</a>
+                   <a href="file:///C:/Users/DELL/Desktop/india.html">1</a>
+                   <a href="file:///C:/Users/DELL/Desktop/tamilnadu.html">2</a>
+                   <a href="file:///C:/Users/DELL/Desktop/kerala.html">3</a>
+                   <a href="file:///C:/Users/DELL/Desktop/telungana.html">4</a>
+                   <a href="#">&raquo;</a>
+            </div>	
+	
+          <footer class="white-section"  id="footer">
+                 <div class=foot>
+                    <i class="fab fa-twitter footer-icons"></i>
+                    <i class="fab fa-facebook-f footer-icons"></i>
+                    <i class="fab fa-instagram footer-icons"></i>
+                    <i class="fas fa-envelope footer-icons"></i>
+                  </div>
+
+         </footer>
+         
+         
+	
+      </body>
+</html>	
+	

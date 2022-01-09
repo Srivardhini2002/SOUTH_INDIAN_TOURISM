@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+.topnav 
+             {
+                overflow: hidden;
+                background: linear-gradient(45deg, #5322c7 0%, #b100a1 100%);
+                border: 2px solid white;
+                position:sticky;
+                top:0;
+             }
+            .topnav a 
+           {
+	float: left;
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+            }
+
+            .topnav a:hover 
+            {
+             background: linear-gradient(45deg,#b100a1 0%, #5322c7 100% );
+             }
+
+
+.header
+       {
+        background: linear-gradient(45deg, #5322c7 0%, #b100a1 100%);
+       }
+   .head1
+            {
+            padding: 30px;
+            text-align: center;
+            color:white;
+            font-family: 'Gemunu Libre', sans-serif;
+            font-weight:100%;
+            font-size:100px;
+            }
+
+.header h1 {
+  font-size: 50px;
+}
+
+
+.leftcolumn {   
+  float: left;
+  width: 100%;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ .pagination
+     {
+      display: inline-block;
+      margin:50px 500px 30px 500px;
+     }
+
+     .pagination a
+     {
+      text-align:center;
+      color: black;
+      padding: 8px 16px;
+      text-decoration: none;
+      transition: background-color .3s;
+     }
+     .pagination a.active 
+     {
+      background-color: #4CAF50;
+      color: white;
+      }
+     .pagination a:hover:not(.active) {background-color: #ddd;}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+.place1,.place2
+{
+          display:flex;
+          flex-direction:row;
+          justify-content:space-between;
+          flex-wrap:wrap;
+
+}
+
+.about1,.about2
+{
+font-family: 'Scheherazade New', serif;
+font-size:20px;
+}
+
+</style>
+</head>
+<body>
+ <div class="topnav">
+	<a href="file:///C:/Users/DELL/Desktop/india.html" >Home</a>
+	<a href="#" >My Account</a>
+	<a href="#" >Places</a>
+                <a href="#" >Feedback Form</a>
+                
+            </div>
+
+<div class="header">
+  <h1 class="head1">Telungana</h1>
+</div>
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Golconda Fort</h2>
+      <div class="place1">
+  <img class="mySlides" src="file:///E:/study material/g_pic1.jpg" style="width:200px;height:auto;flex-basis:350px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+  <img class="mySlides" src="file:///E:/study material/g_pic2.jpg" style="width:200px;height:auto;flex-basis:350px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+  <img class="mySlides" src="file:///E:/study material/g_pic3.jpg" style="width:200px;height:auto;flex-basis:350px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+  
+</div>
+
+      <p class="about1">Situated in the Western part of the beautiful city of Hyderabad at a distance of approximately 9 km from Hussain Sagar Lake, Golconda Fort is one of the region's best-preserved monuments. The construction of this fort was completed in the 1600s and it is reputed for being the area where once, the mighty Koh-I-Noor diamond was stored. It is said that if you clap your hands at the bottom of the fort, the echoes of it can be heard right to the top! The architecture, the legends, the history, and the mystery of Golconda Fort add to its allure and make it one of the must-visit places in Hyderabad. <br><br>
+
+The mines here are known to produce some of the most coveted and popular gems ever known in the world such as Idol's Eye, the Hope Diamond, Darya-i-noor and the famous Koo-i-noor.
+In the evening, Golconda Fort comes to life with the light and sound show which showcases snippets from its regal past. The grandeur, the rise, and the fall of the fort are all spectacular in their own right. With its fascinating history, the place is definitely worth a visit..</p>
+    </div>
+    <div class="card">
+      <h2>Warangal</h2>
+      <div class="place2">
+  <img class="mySlide" src="file:///E:/study material/wa_pic1.jpg" style="width:200px;height:auto;flex-basis:350px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+  <img class="mySlide" src="file:///E:/study material/wa_pic2.jpg" style="width:200px;height:auto;flex-basis:350px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+  <img class="mySlide" src="file:///E:/study material/wa_pic3.jpg" style="width:200px;height:auto;flex-basis:350px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+</div>
+
+
+      <p class="about2">Warangal takes you back to the era of kings and queens with its beautiful historical sites and an impressive natural beauty with Parkhal Lake being worth checking out.<br><br>
+
+The Warangal city is credited as the fifth largest city in this state. The legends have it that it was known as Oruguallu or Omtikonda or Ekasilanagaram mainly due to the existence of a huge hillock which seemed to have been carved out entirely off one stone. Warangal takes you back to the era of kings and queens with its beautiful historical sites. Warangal natural beauty is no less impressive and the Parkhal Lake and wildlife sanctuaries are also definitely worth checking out. Warangal also houses a National Institute of Technology(NIT) which has made it a famous student hub today..</p>
+      
+    </div>
+  </div>
+  </div>
+<div class="pagination">
+                   <a href="#">&laquo;</a>
+                   <a href="file:///C:/Users/DELL/Desktop/india.html">1</a>
+                   <a href="file:///C:/Users/DELL/Desktop/tamilnadu.html">2</a>
+                   <a href="file:///C:/Users/DELL/Desktop/kerala.html">3</a>
+                   <a href="file:///C:/Users/DELL/Desktop/telungana.html">4</a>
+                   <a href="#">&raquo;</a>
+            </div>	
+
+
+<div class="footer">
+    <p>© Copyrigh Reserved</p>
+</div>
+
+</body>
+</html>
