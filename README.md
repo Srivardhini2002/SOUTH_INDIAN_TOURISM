@@ -9,4 +9,4 @@
  
  In Home page Using Places button on Navigation Bar we can direct to Places image on the mid of the Home page.
  
- And Home button on the navigation we can come back to the top of the home page.
+ And with Home button on the navigation we can come back to the top of the home page.
